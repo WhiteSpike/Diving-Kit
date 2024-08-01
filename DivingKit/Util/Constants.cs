@@ -22,7 +22,7 @@ namespace DivingKit.Misc.Util
         internal const string DIVING_KIT_TWO_HANDED_DESCRIPTION = "One or two handed item.";
 
         internal const string DIVING_KIT_CONDUCTIVE_KEY = "Conductive";
-        internal const bool DIVING_KIT_CONDUCTIVE_DEFAULT = false;
+        internal const bool DIVING_KIT_CONDUCTIVE_DEFAULT = true;
         internal const string DIVING_KIT_CONDUCTIVE_DESCRIPTION = "Wether it attracts lightning to the item or not. (Or other mechanics that rely on item being conductive)";
 
         internal const string DIVING_KIT_DROP_AHEAD_PLAYER_KEY = "Drop ahead of player when dropping";
