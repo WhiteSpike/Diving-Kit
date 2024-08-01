@@ -31,6 +31,7 @@ namespace DivingKit.Behaviour
             base.Start();
             localPlayer = GameNetworkManager.Instance.localPlayerController;
             roundInstance = StartOfRound.Instance;
+            if (KeepScanNode) Destroy(gameObject.GetComponentInChildren<ScanNodeProperties>());
         }
         /// <summary>
         /// Check if this item is currently grabbed by a player and if it's the local player and if so, reset their drown timer.
