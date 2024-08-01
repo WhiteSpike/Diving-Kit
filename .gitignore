@@ -2,3 +2,4 @@
 /.vs
 /DivingKit/bin
 /DivingKit/obj
+/DivingKit/*.csproj.user
