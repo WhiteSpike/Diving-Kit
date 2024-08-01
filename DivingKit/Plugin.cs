@@ -62,7 +62,7 @@ namespace DivingKit
             divingKitItem.restingRotation = new Vector3(0f, 0f, 0f);
             divingKitItem.rotationOffset = new Vector3(0, 20f, -90f);
             divingKitItem.positionOffset = new Vector3(-0.1f, -0.5f, -0.3f);
-            divingKitItem.weight = 1f + (Config.WEIGHT / 100f);
+            divingKitItem.weight = 1f + ((Config.WEIGHT-1) / 100f);
             divingKitItem.twoHanded = Config.TWO_HANDED;
             divingKitItem.itemIcon = bundle.LoadAsset<Sprite>(root + "Icon.png");
             divingKitItem.spawnPrefab = bundle.LoadAsset<GameObject>(root + "DivingKit.prefab");
