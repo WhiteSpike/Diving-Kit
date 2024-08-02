@@ -7,8 +7,6 @@ namespace DivingKit.Misc.Util
         internal const bool ITEM_SCAN_NODE_DEFAULT = true;
         internal const string ITEM_SCAN_NODE_DESCRIPTION = "Shows a scan node on the item when scanning";
 
-        #region Diving Kit
-
         internal const string DIVING_KIT_PRICE_KEY = $"{DivingKitBehaviour.ITEM_NAME} price";
         internal const int DIVING_KIT_PRICE_DEFAULT = 650;
         internal const string DIVING_KIT_PRICE_DESCRIPTION = $"Price for {DivingKitBehaviour.ITEM_NAME}.";
@@ -38,6 +36,5 @@ namespace DivingKit.Misc.Util
         internal const string DIVING_KIT_HIGHEST_SALE_PERCENTAGE_DESCRIPTION = "Maximum percentage of sale allowed when this item is selected for a sale.";
 
         internal static readonly string DIVING_KIT_SCAN_NODE_KEY = string.Format(ITEM_SCAN_NODE_KEY_FORMAT, DivingKitBehaviour.ITEM_NAME);
-        #endregion
     }
 }
