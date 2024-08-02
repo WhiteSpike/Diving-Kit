@@ -15,13 +15,13 @@ namespace DivingKit
     [BepInPlugin(Metadata.GUID,Metadata.NAME,Metadata.VERSION)]
     [BepInDependency("com.sigurd.csync")]
     [BepInDependency("evaisa.lethallib")]
+    [BepInDependency("com.github.WhiteSpike.CustomItemBehaviourLibrary")]
     public class Plugin : BaseUnityPlugin
     {
         internal static readonly Harmony harmony = new(Metadata.GUID);
         internal static readonly ManualLogSource mls = BepInEx.Logging.Logger.CreateLogSource(Metadata.NAME);
 
         public new static PluginConfig Config;
-        internal static GameObject networkPrefab;
 
         void Awake()
         {
