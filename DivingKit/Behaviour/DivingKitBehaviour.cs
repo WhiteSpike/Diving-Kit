@@ -1,5 +1,4 @@
-﻿using GameNetcodeStuff;
-using UnityEngine;
+﻿using CustomItemBehaviourLibrary.AbstractItems;
 
 namespace DivingKit.Behaviour
 {
